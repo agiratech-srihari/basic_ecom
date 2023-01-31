@@ -1,0 +1,30 @@
+.card{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color:black;
+    margin-left: 25%;
+    margin-top: 2rem;
+}
+img{
+    width: 100%;
+    align-items: center;
+    height: 25rem;
+}
+.productname{
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 1rem;
+}
+.productdetails{
+    color: white;
+    padding: 2rem;
+    
+}
+.btn{
+    margin-left: 37% ;
+    margin-bottom: 2rem;
+    color: white;
+    border-radius: 2rem;
+}

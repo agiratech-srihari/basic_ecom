@@ -1,0 +1,43 @@
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  input{
+      height: 2rem;
+        margin-bottom: .5rem;
+    }
+  .container > form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+  }
+ 
+  
+  button {
+    background: #0563b4 !important;
+    text-align: center;
+    margin-left: 40%;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+  p {
+    color: red;
+  }
